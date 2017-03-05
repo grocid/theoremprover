@@ -45,4 +45,4 @@ This is an old project I wrote back in 2008 (obviously, it is lightyears from st
 QED
 ```
 
-The prover uses only substitution and modus ponens on a breadth-first search-type algorithm.
+The prover uses only substitution and modus ponens in a breadth-first search-type algorithm.
