@@ -1,6 +1,6 @@
 # Theorem Prover
 
-This is an old project I wrote back in 2008 (obviously, it is lightyears from state-of-the-art theorem provers such as Z3). As an example, to prove `((-p)v(pvq))` using Russel & Whiteheads' five-axiom system from Principia Mathematica, it generates the following:
+This is an old project I wrote back in 2008 (obviously, it is lightyears from state-of-the-art theorem provers such as Z3). As an example, to prove `((-p)v(pvq))` using Russel & Whiteheads' five-axiom system from Principia Mathematica, it generates the following output. 
 
 ```
 1 (A>(BvA))                 	Axiom 2
@@ -44,3 +44,5 @@ This is an old project I wrote back in 2008 (obviously, it is lightyears from st
 39 ((-p)v(pvq))              	Modus Ponens 33 , 38
 QED
 ```
+
+The prover uses only substitution and modus ponens on a breadth-first search-type algorithm.
